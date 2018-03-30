@@ -1,0 +1,115 @@
+body {
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 2.5em;
+  background-color: rgb(34, 34, 34);
+  color: rgb(255, 239, 196);
+}
+
+h2 {
+  font-size: 2em;
+  text-decoration: underline;
+  background-color: rgb(34, 34, 34);
+  color: rgb(255, 239, 196);
+}
+
+h3 {
+  font-size: 1.5em;
+  background-color: purple;
+  color: rgb(255, 239, 196);
+}
+
+h4 {
+  font-weight: bold;
+  background-color: rgb(34, 34, 34);
+  color:  rgb(255, 239, 196);
+}
+
+h5, ol {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+h6 {
+  font-size: .75em;
+}
+
+a {
+  padding: 0px;
+  color: black;
+}
+
+h5, li {
+  color: black;
+}
+
+img {
+  height: 50vh;
+  width: auto;
+}
+
+* {
+  margin: 0px;
+  padding: 2%;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 1em;
+  background-color:  rgb(255, 239, 196);
+}
+
+footer {
+  background-color: rgb(34, 34, 34);
+}
+
+html, main, .learning-to-learn, .goal-setting, header, .meetups, .about-me, footer, li {
+  padding: 0;
+}
+
+.l2l-and-goals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.learning-to-learn, .goal-setting {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  overflow: auto;
+  border: solid;
+  border-width: .5%;
+}
+
+.meetups, .about-me, footer {
+  border: solid;
+  border-width: .5%;
+}
+
+.entries {
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  overflow: auto;
+  padding: 0px;
+}
+
+.abtme {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .learning-to-learn {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.goal-setting {
+  display: flex;
+  justify-content: flex-end;
+} */
